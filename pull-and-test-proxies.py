@@ -28,16 +28,13 @@ def clean():
 	'''
 	Attempt to remove the tmp files
 	'''
-	try:
-		if os.path.isfile("http.tmp"):
-			os.remove("http.tmp")
-		else:
-			pass
-		if os.path.isfile("http_non_dupes.tmp"):
-			os.remove("http_non_dupes.tmp")
-		else:
-			pass
-	except:
+	if os.path.isfile("http.tmp"):
+		os.remove("http.tmp")
+	else:
+		pass
+	if os.path.isfile("http_non_dupes.tmp"):
+		os.remove("http_non_dupes.tmp")
+	else:
 		pass
 
 def proxie_sort():
