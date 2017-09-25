@@ -123,10 +123,11 @@ def main():
 	Load all functions
 	'''
 	banner()
-	clean()
+	clean() # Clean at start
 	proxie_pull()
 	proxie_sort()
 	proxie_tests()
+	clean() # Clean once done
 	print "[{}] Finished".format(systime())
 
 if __name__ == "__main__":
