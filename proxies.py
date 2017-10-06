@@ -1,10 +1,4 @@
-import requests
-import time
-import os
-import threading
-import sys
-import logging
-import random 
+import requests,time,os,threading,sys,logging,random
 
 urls = ["http://pubproxy.com/api/proxy?format=txt&type=http&limit=20&level=elite&user_agent=true"]
 site = "http://httpbin.org/get"
