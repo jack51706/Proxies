@@ -8,7 +8,3 @@ Downloads proxies from URL, tests them with custom User-Agents, results are save
 ``` for _ in range(1): ```
 
 More information about this API can be found here: http://pubproxy.com/#settings
-
-#### Results
-* result.txt contains non-sorted/non-tested proxies
-* result-working.txt contains all the working proxies
