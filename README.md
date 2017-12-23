@@ -1,4 +1,4 @@
-# Proxies
+# ☠ Proxies
 Downloads proxies from URL, tests them with custom User-Agents, results are saved in file.
 
 #### Preview
